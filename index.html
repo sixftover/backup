@@ -1085,7 +1085,7 @@ blockquote strong {
 <section id="pageContent">
 	<article class="container">
 	<section class="container mapContainer">
-	<div id="visualization"></div>
+	<div id="visualization" class="map"></div>
 </section>
 		<h3 id="欢迎--welcome">欢迎 | Welcome</h3>
 
@@ -1106,28 +1106,10 @@ Madeline &amp; Ollie</p>
 			<a class="card card-article" href="https://sixftover.github.io//blog/2017/08/navigating_hong_kong_airport">
 	<div class="title">
 
-		<h6>2017-08-22 08:00:00 +0800</h6>
-		<h3>Navigating Hong Kong Airport</span>
-		</h3>
-
-		<ul class="articleMeta">
-
-			
-
-			
-	<li><span class="metaCity" href="." target="_self">Hong Kong</span></li>
-
-
-
-	<li><span class="metaCountry" href="." target="_self">China</span></li>
-
-
-
-	<li><span class="metaContinent" href="." target="_self">Asia</span></li>
-
-
-
-
+		<h6>22 August 2017</h6>
+		<h3>Navigating Hong Kong Airport</h3>
+		
+		<ul class="articleMeta topics">
 			
 	<li>
 		<span class="metaTopic" href="." target="_self">
@@ -1159,6 +1141,18 @@ Madeline &amp; Ollie</p>
 		</span>
 	</li>
 
+		</ul>
+
+		<ul class="articleMeta locations">
+			
+	<li><span class="metaCountry" href="." target="_self">China</span></li>
+
+
+
+	<li><span class="metaContinent" href="." target="_self">Asia</span></li>
+
+
+
 
 		</ul>
 
@@ -1179,28 +1173,10 @@ Madeline &amp; Ollie</p>
 			<a class="card card-article" href="https://sixftover.github.io//blog/2017/08/food_shopping_in_shanghai">
 	<div class="title">
 
-		<h6>2017-08-08 08:00:00 +0800</h6>
-		<h3>Food Shopping in Shanghai</span>
-		</h3>
-
-		<ul class="articleMeta">
-
-			
-
-			
-	<li><span class="metaCity" href="." target="_self">Shanghai</span></li>
-
-
-
-	<li><span class="metaCountry" href="." target="_self">China</span></li>
-
-
-
-	<li><span class="metaContinent" href="." target="_self">Asia</span></li>
-
-
-
-
+		<h6>8 August 2017</h6>
+		<h3>Food Shopping in Shanghai</h3>
+		
+		<ul class="articleMeta topics">
 			
 	<li>
 		<span class="metaTopic" href="." target="_self">
@@ -1232,6 +1208,18 @@ Madeline &amp; Ollie</p>
 		</span>
 	</li>
 
+		</ul>
+
+		<ul class="articleMeta locations">
+			
+	<li><span class="metaCountry" href="." target="_self">China</span></li>
+
+
+
+	<li><span class="metaContinent" href="." target="_self">Asia</span></li>
+
+
+
 
 		</ul>
 
@@ -1252,28 +1240,10 @@ Madeline &amp; Ollie</p>
 			<a class="card card-article" href="https://sixftover.github.io//blog/2017/07/touching_down_and_touching_base">
 	<div class="title">
 
-		<h6>2017-07-06 08:00:00 +0800</h6>
-		<h3>Touching Down and Touching Base</span>
-		</h3>
-
-		<ul class="articleMeta">
-
-			
-
-			
-	<li><span class="metaCity" href="." target="_self">Shanghai</span></li>
-
-
-
-	<li><span class="metaCountry" href="." target="_self">China</span></li>
-
-
-
-	<li><span class="metaContinent" href="." target="_self">Asia</span></li>
-
-
-
-
+		<h6>6 July 2017</h6>
+		<h3>Touching Down and Touching Base</h3>
+		
+		<ul class="articleMeta topics">
 			
 	<li>
 		<span class="metaTopic" href="." target="_self">
@@ -1304,6 +1274,18 @@ Madeline &amp; Ollie</p>
 			
 		</span>
 	</li>
+
+		</ul>
+
+		<ul class="articleMeta locations">
+			
+	<li><span class="metaCountry" href="." target="_self">China</span></li>
+
+
+
+	<li><span class="metaContinent" href="." target="_self">Asia</span></li>
+
+
 
 
 		</ul>
@@ -1367,8 +1349,7 @@ Madeline &amp; Ollie</p>
 </footer>
 	
 	<!-- imports -->
-	<!-- jbLazy, lazy load images -->
-<script src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js" type="text/javascript"></script>
+	
 
 <!-- Instafeed, instagram images -->
 <script src="https://sixftover.github.io//js/instafeed.min.js" type="text/javascript"></script>
@@ -1381,18 +1362,7 @@ Madeline &amp; Ollie</p>
 	<script src="https://sixftover.github.io/js/worldmap.js" type="text/javascript"></script>-->
 <script src='https://www.gstatic.com/charts/loader.js' type='text/javascript'></script>
 <script src='https://www.google.com/jsapi' type='text/javascript'></script>
-	<!-- jbLazy, lazy load images -->
-<script type='text/javascript'>
-     ;(function() {
-         // Initialize
-         var bLazy = new Blazy({
-             //container: '#scrolling-container' // Default is window
-         });
-        })();
-
-
-
-</script>
+	
 
 
 <!-- Instafeed, instagram images -->
@@ -1402,13 +1372,11 @@ Madeline &amp; Ollie</p>
         userId: '5453885940',
         limit: '6',
         sortBy: 'most-recent',
-        resolution: 'thumbnail',
+        resolution: 'low_resolution',
         accessToken: '5453885940.ecd67b3.8a01a526df134951ae7349de8ad5a618',
-        template: '<a href="{{ link }}" target-"_blank"><img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ image }}" alt="{{ location }}" /></a>'
+        template: '<a href="{{link}}" target="_blank"><img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{image}}" alt="{{location}}" /></a>'
     });
     userFeed.run();
-
-    
 </script>
 
 
@@ -1643,6 +1611,17 @@ Madeline &amp; Ollie</p>
 
 
 
+	
+	<!-- jbLazy, lazy load images -->
+	<script src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js" type="text/javascript"></script>
+	<script type='text/javascript'>
+		; (function () {
+			// Initialize
+			var bLazy = new Blazy({
+				//container: '#scrolling-container' // Default is window
+			});
+		})();
+	</script>
 	
 	<!-- styles -->
 	<link rel="stylesheet" type="text/css" href="/style.css" async>
